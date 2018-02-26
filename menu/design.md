@@ -1,6 +1,6 @@
 ---
-layout: page
-<!-- title: Design -->
+layout: default
+title: Design
 ---
 
 {% for post in site.posts %}

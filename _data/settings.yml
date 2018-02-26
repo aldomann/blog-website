@@ -11,6 +11,7 @@ menu:
 # - {name: 'General', path: 'menu', url: 'writing.html'}
 - {name: 'Tech Stuff', path: 'menu', url: 'tech.html'}
 - {name: 'Design', path: 'menu', url: 'design.html'}
+- {name: 'Tags', path: 'menu', url: '../tags.html'}
 # - {name: 'Contact', path: 'menu', url: 'contact.html'}
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer

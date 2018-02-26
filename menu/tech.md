@@ -1,6 +1,6 @@
 ---
-layout: page
-<!-- title: Tech Stuff -->
+layout: default
+title: Tech Stuff
 ---
 
 {% for post in site.posts %}
