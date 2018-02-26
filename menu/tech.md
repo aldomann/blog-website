@@ -1,10 +1,10 @@
 ---
 layout: page
-<!-- title: Design -->
+<!-- title: Tech Stuff -->
 ---
 
 {% for post in site.posts %}
-{% if post.categories contains "design" %}
+{% if post.categories contains "tech" %}
 <div class="posts">
   <h1>
     <a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a>
