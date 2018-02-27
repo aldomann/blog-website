@@ -7,11 +7,11 @@ Lagrange is a minimalist Jekyll theme. The purpose of this theme is to provide a
 
 ### Getting Started
 
-[Getting Started]({{ site.github.url }}{% post_url 2018-02-25-latex-test %}): getting started with installing Lagrange, whether you are completely new to using Jekyll, or simply just migrating to a new Jekyll theme.
+[Getting Started]({{ site.github.url }}{% post_url 2018-02-26-about-the-author %}): getting started with installing Lagrange, whether you are completely new to using Jekyll, or simply just migrating to a new Jekyll theme.
 
 ### Example Content
 
-[Text and Formatting]({{ site.github.url }}{% post_url 2018-02-26-mockup-test %})
+[Text and Formatting]({{ site.github.url }}{% post_url 2018-02-26-about-the-author %})
 
 ### Questions?
 

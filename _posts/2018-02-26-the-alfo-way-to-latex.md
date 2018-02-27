@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Something about LaTeX!"
-author: "Paul Le"
+title: "I'm writing my own LaTeX book!"
+author: "Alfredo Hernández"
 categories: tech
-tags: [documentation,latex]
+tags: [latex]
 image: writing.jpg
 ---
 
@@ -15,11 +15,11 @@ $$
 
 ### Getting Started
 
-[Getting Started]({{ site.github.url }}{% post_url 2018-02-25-latex-test %}): getting started with installing Lagrange, whether you are completely new to using Jekyll, or simply just migrating to a new Jekyll theme.
+[Getting Started]({{ site.github.url }}{% post_url 2018-02-26-about-the-author %}): getting started with installing Lagrange, whether you are completely new to using Jekyll, or simply just migrating to a new Jekyll theme.
 
 ### Example Content
 
-[Text and Formatting]({{ site.github.url }}{% post_url 2018-02-26-mockup-test %})
+[Text and Formatting]({{ site.github.url }}{% post_url 2018-02-26-about-the-author %})
 
 ### Questions?
 
