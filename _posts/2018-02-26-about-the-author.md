@@ -17,4 +17,4 @@ One of the things that made me create this blog is the feedback from the GNOME c
 
 So my idea is to start publishing my mockups here, either additionally or only here (I still have to decide it).
 
-One of the things I also want to write about here is Linux in general and updates about the book I'm writing about $$ \LaTeX $$: [The Alf Way to LaTeX]({{ site.github.url }}{% post_url 2018-02-26-the-alf-way-to-latex %}).
+One of the things I also want to write about here is Linux in general and updates about the book I'm writing about $$ \LaTeX $$: [The Alf Way to LaTeX]({{ site.github.url }}{% post_url 2018-02-27-the-alf-way-to-latex %}).
