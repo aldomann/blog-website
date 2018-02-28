@@ -7,7 +7,7 @@ tags: [latex]
 image: writing.jpg
 ---
 
-There are many good books to learn LaTeX, like *LaTeX and Friends* by Marc R. C. van Dongen (my favourite) or the <a href="https://en.wikibooks.org/wiki/LaTeX">*LaTeX Guide*</a> from Wikibooks. But sometimes you find that they good either too deep into technical details, or they don't even scratch the surface of what LaTeX can offer.
+There are many good books to learn LaTeX, like *LaTeX and Friends* by Marc R. C. van Dongen (my favourite) or the <a href="https://en.wikibooks.org/wiki/LaTeX">*LaTeX Guide*</a> from Wikibooks. But sometimes you find that they go either too deep into technical details, or they don't really scratch the surface of what LaTeX can offer.
 
 That's why I decided a couple of weeks ago to write my own book about LaTeX. My approach is not academic or technical, just a (I think) simple introduction to LaTeX, what it offers, and how you can use it in clever ways to ease your work (specially in Mathematics and Physics). Some of the best tips and black magic I use daily comes straight from <a href="https://tex.stackexchange.com/">TeX - LaTeX Stack Exchange</a> (special mentions to the amazing <a href="https://tex.stackexchange.com/users/4427/egreg">Enrico Gregorio</a>).
 
