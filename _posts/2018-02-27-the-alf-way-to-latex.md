@@ -14,7 +14,7 @@ That's why I decided a couple of weeks ago to write my own book about LaTeX. My 
 
 Without further ado, let's present the name of the book: *The Alf Way to LaTeX*, a rather bombastic but silly at the same time, so of course, I'm very proud of it (it was suggested by my good friend Bill).
 
-{% include image.html src="alf-way-cover.jpg" title="Old Mockups" %}
+{% include image.html src="alf-way-cover.jpg" title="Provisional Book Cover" %}
 
 Overall, the goal of my book is to create a somehow weird short (I hope) book about the things you cannot and will not find in most books, and of course, to have fun writing it.
 
