@@ -7,12 +7,9 @@ disqus:
 
 menu:
 - {name: 'About Me', path: 'menu', url: '../../'}
-# - {name: 'About', path: 'menu', url: 'about.html'}
-# - {name: 'General', path: 'menu', url: 'writing.html'}
-- {name: 'Tech Stuff', path: 'menu', url: 'tech.html'}
-- {name: 'Design', path: 'menu', url: 'design.html'}
-- {name: 'Tags', path: 'menu', url: '../tags.html'}
-# - {name: 'Contact', path: 'menu', url: 'contact.html'}
+- {name: 'Tech Stuff', path: 'menu', url: 'tech'}
+- {name: 'Design', path: 'menu', url: 'design'}
+- {name: 'Tags', path: 'menu', url: '../tags'}
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
