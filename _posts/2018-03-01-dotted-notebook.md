@@ -13,10 +13,12 @@ In the past, as the penny-pinching I am, I have always used either blank sheets 
 
 Below, a mockup of GNOME Shell in the 3.0 era (with the infamous spiral), and a draft mockup for BleachBit.
 
-{% lightbox old_mockups.jpg, group %}
+{% lightbox ../assets/img/old_mockups.jpg --data="group" %}
+
 
 Anyway, I hope this notebook will make the process of making mockups easier and more enjoyable now that I've decided to start working again on them. I have a few unfinished ones (for fairly complex applications), and I also want to post all my old mockups here. I still need to decide the layout of the posts, though; hopefully it will not take long.
 
-{% lightbox notebook.jpg, group %}
+{% lightbox ../assets/img/notebook.jpg --data="group" %}
+
 
 If anyone is interested in the pen, it's a Uni Jetstream Ballpoint Pen, my favourite since I started using them 8 years ago or so.
