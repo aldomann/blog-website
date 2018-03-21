@@ -1,5 +1,8 @@
 # Site Build Settings
 
+url: https://aldomann.com
+baseurl: "blog"
+
 # Jekyll-paginate-v2 configuration
 #  pagination:
 #   enabled: true
