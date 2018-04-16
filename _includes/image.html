@@ -1,1 +1,1 @@
-<img src="{{ site.github.url }}/assets/img/{{ include.src }}" alt="{{ include.title }}"/>
+<img src="{{ '/assets/img/' | prepend: site.github.url | replace: 'http://', 'https://' }}{{ include.src }}" alt="{{ include.title }}"/>
