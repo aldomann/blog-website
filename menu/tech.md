@@ -11,7 +11,7 @@ title: Tech Stuff
   </h1>
   {% if post.image %}
   <div class="thumbnail-container">
-    <a href="{{ site.github.url }}{{ post.url }}"><img src="{{ site.github.url }}/assets/img/{{ post.image }}"></a>
+    <a href="{{ site.github.url }}{{ post.url }}"><img src="{{ '/assets/img/' | prepend: site.github.url | replace: 'http://', 'https://' }}{{ post.image }}"></a>
   </div>
   {% endif %}
   <p>
