@@ -1,7 +1,8 @@
 # Site Build Settings
 
-url: https://aldomann.com
-baseurl: "blog"
+url: https://aldomann.com/blog
+# baseurl: "blog"
+root: /blog/
 
 # Jekyll-paginate-v2 configuration
 #  pagination:
