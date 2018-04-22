@@ -155,6 +155,7 @@ html.lb-disable-scrolling {
 }
 
 .lb-data {
+  font-family: "Quattrocento Sans", sans-serif;
   padding: 0 4px;
   color: #ccc;
 }
@@ -167,9 +168,9 @@ html.lb-disable-scrolling {
 }
 
 .lb-data .lb-caption {
-  font-size: 13px;
+  font-size: 18px;
   font-weight: bold;
-  line-height: 1em;
+  line-height: 1.5em;
 }
 
 .lb-data .lb-caption a {
@@ -180,7 +181,7 @@ html.lb-disable-scrolling {
   display: block;
   clear: left;
   padding-bottom: 1em;
-  font-size: 12px;
+  font-size: 15px;
   color: #999999;
 }
 
