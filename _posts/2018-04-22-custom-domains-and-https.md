@@ -63,4 +63,4 @@ Unfortunately, you will have to do this on all your calls to CSS, JavaScript fil
 
 Writing this post I discovered that apparently, if you are using CloudFlare, which I am, you can also take advantage of [Automatic HTTPS Rewrites](https://www.cloudflare.com/website-optimization/automatic-https-rewrite/).
 
-Just tried it and it works, meaning that I didn't really need to use `replace:` inside every call to CSS, JS file or image... At least I had fun ¯\\\_(ツ)_/¯
+Just tried it and it seems works (needs more testing though), meaning that I didn't really need to use `replace:` inside every call to CSS, JS file or image... At least I had fun ¯\\\_(ツ)_/¯
