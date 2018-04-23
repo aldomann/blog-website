@@ -9,7 +9,7 @@ image: internet.jpg
 
 One of the main reasons people point out to use a custom domain is that people will take your website more seriously. I personally just did it because it's relatively cheap and because I wanted to learn on the process.
 
-On this post I will try to explain shortly my (dis)adventures on setting up my own custom domain.
+On this post I will try to explain shortly my (mis)adventures on setting up my own custom domain.
 
 ## Using Google Domains
 
@@ -63,4 +63,4 @@ Unfortunately, you will have to do this on all your calls to CSS, JavaScript fil
 
 Writing this post I discovered that apparently, if you are using CloudFlare, which I am, you can also take advantage of [Automatic HTTPS Rewrites](https://www.cloudflare.com/website-optimization/automatic-https-rewrite/).
 
-Just tried it and it seems works (needs more testing though), meaning that I didn't really need to use `replace:` inside every call to CSS, JS file or image... At least I had fun ¯\\\_(ツ)_/¯
+Just tried it and it seems to works (needs more testing though), meaning that I didn't really need to use `replace:` inside every call to CSS, JS file or image... At least I had fun ¯\\\_(ツ)_/¯
