@@ -36,7 +36,7 @@ Among many other things, CloudFlare's services allow your users to access your s
 {% include lightbox.html src="google-cloudflare-dns.png" data="group" title="DNS name servers" %}
   3. Then we will add three DNS Records on CloudFlare's `DNS` section:
 {% include lightbox.html src="cloudflare-dns.png" data="group" title="DNS Records" %}
-  4. Force SSL using CloudFlare's `Page Rules`:
+  4. Finally, we need to force SSL using CloudFlare's `Page Rules`:
 {% include lightbox.html src="cloudflare-ssl-pagerule.png" data="group" title="Page Rule to force SSL" %}
 
 For more detailed information on SSL and other tips, you can check [CloudFlare's blog](https://blog.cloudflare.com/secure-and-fast-github-pages-with-cloudflare/).
