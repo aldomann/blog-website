@@ -39,8 +39,6 @@ GEM
       jekyll (~> 3.5)
       jekyll-feed (~> 0.9)
       jekyll-seo-tag (~> 2.1)
-    octopress-escape-code (2.1.1)
-      jekyll (~> 3.0)
     pathutil (0.16.1)
       forwardable-extended (~> 2.6)
     public_suffix (3.0.2)
@@ -66,8 +64,7 @@ DEPENDENCIES
   jekyll-seo-tag
   jekyll-sitemap
   minima (~> 2.0)
-  octopress-escape-code
   tzinfo-data
 
 BUNDLED WITH
-   1.16.1
+   1.16.6
