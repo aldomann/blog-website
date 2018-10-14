@@ -1,6 +1,6 @@
 # Site Build Settings
 
-url: https://aldomann.com/blog
+url: https://aldomann.gitlab.io/blog
 root: /blog/
 
 # Jekyll-paginate-v2 configuration
