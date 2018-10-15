@@ -392,6 +392,32 @@ th, td {
 	color: #00aced;
 }
 
+.fa-telegram {
+  padding: 5px;
+  -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+}
+
+.fa-telegram:hover {
+  color: #42aae3;
+}
+
+.fa-mastodon {
+  padding: 5px;
+  -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+}
+
+.fa-mastodon:hover {
+  color: #2b90d9;
+}
+
 .fa-instagram {
   padding: 5px;
 	-o-transition:.5s;
@@ -416,6 +442,19 @@ th, td {
 
 .fa-github:hover {
 	color: #343434;
+}
+
+.fa-gitlab {
+  padding: 5px;
+  -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+}
+
+.fa-gitlab:hover {
+  color: #fca326;
 }
 
 .fa-linkedin {
