@@ -1,6 +1,9 @@
 # Personal Blog
 
-A simple personal blog based on [Lagrange](https://github.com/LeNPaul/Lagrange) by  [Paul Le](https://github.com/LeNPaul), powered by Jekyll + GitHub Pages.
+A simple personal blog based on [Lagrange](https://github.com/LeNPaul/Lagrange) by  [Paul Le](https://github.com/LeNPaul), powered by Jekyll + GitLab Pages.
+
+[![Powered by Jekyll](https://img.shields.io/badge/powered_by-jekyll-red.svg)](https://jekyllrb.com/)
+[![MIT License](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
 
 ## Licenses
 
