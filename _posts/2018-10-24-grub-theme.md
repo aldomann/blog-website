@@ -1,10 +1,9 @@
 ---
 layout: post
-title: "Disabling graphical GRUB theme"
+title: "Disabling GRUB graphical theme"
 author: "Alfredo Hernández"
 categories: tech
 tags: [linux,documentation]
-# image: internet.jpg
 ---
 
 I've been using Antergos/Arch Linux for a couple of years after switching from Ubuntu GNOME, and although I don't dislike the shipped graphical GRUB theme (depicted below), I always found it unnecessary and in some resolutions the background image is stretched.
