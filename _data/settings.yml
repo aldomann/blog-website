@@ -13,8 +13,8 @@ menu:
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
-- {icon: 'google-plus', link: 'https://plus.google.com/u/0/+AlfredoHernándezC'}
-# - {icon: 'mastodon', link: 'https://mastodon.social/@aldomann'}
+# - {icon: 'google-plus', link: 'https://plus.google.com/u/0/+AlfredoHernándezC'}
+- {icon: 'twitter', link: 'https://twitter.com/aldomann'}
 - {icon: 'gitlab', link: 'https://www.gitlab.com/aldomann'}
 - {icon: 'github', link: 'https://www.github.com/aldomann'}
 - {icon: 'linkedin', link: 'http://www.linkedin.com/in/aldomann'}
