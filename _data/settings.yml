@@ -6,11 +6,11 @@ disqus:
 # google-ID: 'UA-112060364-1'
 
 menu:
-- {name: 'About Me', path: '..', url: ''}
-- {name: 'Tech Stuff', path: 'menu', url: 'tech'}
-- {name: 'Data Science', path: 'menu', url: 'data-science'}
-- {name: 'Design', path: 'menu', url: 'design'}
-- {name: 'Tags', path: '..', url: 'tags'}
+- {name: 'About Me',     hardlink: true,   url: 'https://aldomann.com'}
+- {name: 'Tech Stuff',   path: 'menu',     url: 'tech'}
+- {name: 'Data Science', path: 'menu',     url: 'data-science'}
+- {name: 'Design',       path: 'menu',     url: 'design'}
+- {name: 'Tags',         path: '..',       url: 'tags'}
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
