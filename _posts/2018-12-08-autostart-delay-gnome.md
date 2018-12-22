@@ -28,7 +28,7 @@ Type=Application
 Name=Nice App
 Exec=bash -c "sleep 10 /opt/niceapp/niceapp -minimize"
 Icon=niceapp
-Comment=Just a nice app
+Comment=Just a nice application
 ```
 
 This will effectively delay the startup process of the application for 10 seconds, giving GNOME Shell enough time to initialise before the application, resulting in its status icon showing in the top bar. This solution feels very hacky, though.
