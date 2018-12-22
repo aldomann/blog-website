@@ -2,7 +2,7 @@
 layout: post
 title: "Getting system notifications with R"
 author: "Alfredo Hernández"
-categories: tech
+categories: data-science
 tags: [linux,r,programming]
 ---
 
