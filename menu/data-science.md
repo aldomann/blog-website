@@ -1,6 +1,10 @@
 ---
 layout: default
 title: Data Science
+pagination:
+  enabled: true
+  per_page: 5
+  category: data-science
 ---
 
 {% for post in site.posts %}
@@ -25,14 +29,28 @@ title: Data Science
 <!-- Pagination links -->
 <div class="pagination">
   {% if paginator.next_page %}
-    <a class="pagination-button pagination-active" href="{{ site.baseurl }}{{ paginator.next_page_path }}" class="next">{{ site.data.settings.pagination.previous_page }}</a>
+    <a class="pagination-button pagination-active" href="{{ site.baseurl }}{{ paginator.last_page_path }}">{{ site.data.settings.pagination.first_page }}</a>
+  {% else %}
+    <span class="pagination-button">{{ site.data.settings.pagination.first_page }}</span>
+  {% endif %}
+
+  {% if paginator.next_page %}
+    <a class="pagination-button pagination-active" href="{{ site.baseurl }}{{ paginator.next_page_path }}">{{ site.data.settings.pagination.previous_page }}</a>
   {% else %}
     <span class="pagination-button">{{ site.data.settings.pagination.previous_page }}</span>
   {% endif %}
+
+  <p class="pagination-button">{{ paginator.page }} / {{ paginator.total_pages }}</p>
 
   {% if paginator.previous_page %}
     <a class="pagination-button pagination-active" href="{{ site.baseurl }}{{ paginator.previous_page_path }}">{{ site.data.settings.pagination.next_page }}</a>
   {% else %}
     <span class="pagination-button">{{ site.data.settings.pagination.next_page }}</span>
+  {% endif %}
+
+  {% if paginator.previous_page %}
+    <a class="pagination-button pagination-active" href="{{ site.baseurl }}{{ paginator.first_page_path }}">{{ site.data.settings.pagination.last_page }}</a>
+  {% else %}
+    <span class="pagination-button">{{ site.data.settings.pagination.last_page }}</span>
   {% endif %}
 </div>
