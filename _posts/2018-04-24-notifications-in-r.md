@@ -8,7 +8,7 @@ tags: [linux,r,programming]
 
 So today I was making quite time consuming simulations in R, and I was wondering if there was a way to know when the simulations were finished so I could have a look at the results. Relevant xkcd:
 
-{% include image_url.html src="https://imgs.xkcd.com/comics/compiling.png" data="group" title="Custom resource records" %}
+{% include image.html src="https://imgs.xkcd.com/comics/compiling.png" data="group" title="Custom resource records" %}
 
 For those familiar with bash scripting in Linux, you can use `notify-send` to, well, send desktop notifications using the `libnotify` library. For those familiar with R, you may also know that R can directly execute system commands using the `system()` function.
 
@@ -18,9 +18,9 @@ Having this in mind, the answer to my problem was just creating a function that
  - sends a permanent desktop notification
  - emits a *completion* alert sound[^fn2]
 
-*Of course*, I decided to call the function `zug_zug()`:
+*Of course*, I decided to call the function `lok_regar()`:
 ```r
-zug_zug <- function(call) {
+lok_regar <- function(call) {
 	print(system.time(call))
 	system("notify-send -i rstudio -u critical 'Finished calculations' 'Get back to work!'")
 	system("paplay /usr/share/sounds/freedesktop/stereo/complete.oga")

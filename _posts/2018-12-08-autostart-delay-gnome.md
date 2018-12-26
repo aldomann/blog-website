@@ -8,13 +8,13 @@ tags: [linux,documentation]
 
 Back in 2017, support for status icons, pictured below, [was removed](https://blogs.gnome.org/aday/2017/08/31/status-icons-and-gnome/) from GNOME Shell (v3.26).
 
-{%include image_url.html src="https://blogs.gnome.org/aday/files/2017/08/image1.png" %}
+{%include image.html src="https://blogs.gnome.org/aday/files/2017/08/image1.png" %}
 
 This has been a controversial topic (as anything in the GNU/Linux community, really) and probably will always be, but in my opinion there's no point on discussing about it.
 
 One way to use status icons on later versions of GNOME Shell is to install the [(K)StatusNotifierItem/AppIndicator Support](https://extensions.gnome.org/extension/615/appindicator-support/) extension by [Marco Trevisan](https://github.com/3v1n0). As you can see in the picture below, the menu is rendered natively by GNOME Shell instead of Qt/GTK+, so at the end of the day the desktop integration is much more seamless that the old implementation.
 
-{%include image_url.html src="https://extensions.gnome.org/extension-data/screenshots/screenshot_615.png" %}
+{%include image.html src="https://extensions.gnome.org/extension-data/screenshots/screenshot_615.png" %}
 
 The only issue with this is that not all startup applications, those that are automatically started when you log in, that use status icons will show up in the bar. The reason for this, if I'm not mistaken, is that the applications are started before GNOME Shell/the extension is rendered.
 

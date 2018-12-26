@@ -15,7 +15,7 @@ pagination:
   </h1>
   {% if post.image %}
   <div class="thumbnail-container">
-    <a href="{{ site.baseurl }}{{ post.url }}"><img src="{{ '/assets/img/' | prepend: site.baseurl | replace: 'http://', 'https://' }}{{ post.image }}"></a>
+    <a href="{{ site.baseurl }}{{ post.url }}"><img src="{{ '/assets/img/thumbnails/' | prepend: site.baseurl | replace: 'http://', 'https://' }}{{ post.image }}"></a>
   </div>
   {% endif %}
   <p>

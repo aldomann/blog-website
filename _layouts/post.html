@@ -6,8 +6,8 @@ layout: default
   {{ page.title }}
 </h1>
 
-{% if page.image %}
-  <img src="{{ '/assets/img/' | prepend: site.baseurl | replace: 'http://', 'https://' }}{{ page.image }}">
+{% if page.image and page.showimage == "true" %}
+  <img src="{{ '/assets/img/thumbnails/' | prepend: site.baseurl | replace: 'http://', 'https://' }}{{ page.image }}">
 {% endif %}
 
 {{ content }}

@@ -8,7 +8,7 @@ tags: [linux,documentation]
 
 I've been using Antergos/Arch Linux for a couple of years after switching from Ubuntu GNOME, and although I don't dislike the shipped graphical GRUB theme (depicted below), I always found it unnecessary and in some resolutions the background image is stretched.
 
-{% include lightbox.html src="grub-graphic.png" data="group" title="Default GRUB theme shipped with Antergos" %}
+{% include image.html lightbox="true" src="grub-graphic.png" data="group" title="Default GRUB theme shipped with Antergos" %}
 
 So, after years of just being lazy and not really wanting to do it on my machine, I decided to just run a Virtual Machine and test how to properly do it without breaking the system (GRUB is one of those things you don't want to break; although doing it is not that difficult to fix, just annoying).
 
@@ -22,7 +22,7 @@ The only thing to do in this file is to comment the following line (you can use 
 #GRUB_THEME="/boot/grub/themes/Antergos-Default/theme.txt"
 ```
 This will essentially make GRUB look like this (our goal):
-{% include lightbox.html src="grub-text.png" data="group" title="Gorgeous unremarkable text-based GRUB" %}
+{% include image.html lightbox="true" src="grub-text.png" data="group" title="Gorgeous unremarkable text-based GRUB" %}
 
 
 If you wish to change the colours you could uncomment the following lines and [set them to your preferred colours](https://www.gnu.org/software/grub/manual/legacy/color.html):

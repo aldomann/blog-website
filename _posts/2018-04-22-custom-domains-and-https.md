@@ -23,7 +23,7 @@ aldomann.com
 www.aldomann.com
 ```
   3. Setting up the Custom resource records
-{% include lightbox.html src="google-custom-records.png" data="group" title="Custom resource records" %}
+{% include image.html lightbox="true" src="google-custom-records.png" data="group" title="Custom resource records" %}
 
 The downside on using Google Domains is that the website will not be secured by SSL (meaning that it will not use the HTTPS protocol), as GitHub Pages doesn't ordinarily support SSL on custom domains.
 
@@ -33,11 +33,11 @@ Among many other things, CloudFlare's services allow your users to access your s
 
   1. First of all, we need to create a CloudFlare free account. When asked, we need to enter the custom domain URL.
   2. CloudFlare will assign us two DNS name servers that you will have to configure in our Google Domains account:
-{% include lightbox.html src="google-cloudflare-dns.png" data="group" title="DNS name servers" %}
+{% include image.html lightbox="true" src="google-cloudflare-dns.png" data="group" title="DNS name servers" %}
   3. Then we will add three DNS Records on CloudFlare's `DNS` section:
-{% include lightbox.html src="cloudflare-dns.png" data="group" title="DNS Records" %}
+{% include image.html lightbox="true" src="cloudflare-dns.png" data="group" title="DNS Records" %}
   4. Finally, we need to force SSL using CloudFlare's `Page Rules`:
-{% include lightbox.html src="cloudflare-ssl-pagerule.png" data="group" title="Page Rule to force SSL" %}
+{% include image.html lightbox="true" src="cloudflare-ssl-pagerule.png" data="group" title="Page Rule to force SSL" %}
 
 For more detailed information on SSL and other tips, you can check [CloudFlare's blog](https://blog.cloudflare.com/secure-and-fast-github-pages-with-cloudflare/).
 
