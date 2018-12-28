@@ -3,7 +3,7 @@ layout: post
 title: "Using Jekyll, Lightbox, and GitHub pages"
 author: "Alfredo Hernández"
 categories: tech
-tags: [blog,documentation]
+tags: [blog,documentation,jekyll]
 image: html-code.jpg
 ---
 
