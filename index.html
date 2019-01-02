@@ -17,7 +17,12 @@ pagination:
   {% endif %}
   <p>
     {{ post.content | strip_html | truncate: 350 }} <a href="{{ site.baseurl }}{{ post.url }}">Read more</a>
-    <span class="post-date"><i class="fa fa-calendar" aria-hidden="true"></i> {{ post.date | date_to_string }} - <i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</span>
+    {% unless post.mod_date %}
+      {% assign my_date = post.date %}
+    {% else %}
+      {% assign my_date = post.mod_date %}
+    {% endunless %}
+    <span class="post-date"><i class="fa fa-calendar" aria-hidden="true"></i> {{ my_date | date_to_string }} - <i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</span>
   </p>
 </div>
 {% endfor %}
