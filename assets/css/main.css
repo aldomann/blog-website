@@ -281,6 +281,7 @@ hr {
 code,
 pre {
 	font-family: "Roboto Mono", monospace;
+	tab-size: 2;
 }
 code {
 	padding: .25em .5em;

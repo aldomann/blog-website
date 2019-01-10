@@ -49,7 +49,7 @@ Trying to find solutions for this problem, I found [gauntface's answer](https://
 
 {% raw %}
 ```html
- <link rel="stylesheet" href="{{ '/assets/css/main.css' | prepend: site.github.url | replace: 'http://', 'https://' }}">
+<link rel="stylesheet" href="{{ '/assets/css/main.css' | prepend: site.github.url | replace: 'http://', 'https://' }}">
 ```
 instead of the usual
 ```html
