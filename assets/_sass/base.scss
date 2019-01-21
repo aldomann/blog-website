@@ -13,9 +13,9 @@
 */
 
 body {
-	font-family: 'Noto Sans', sans-serif;
+	@include sans;
 	font-size: 16px;
-	color: #515151;
+	color: $text-color;
 	line-height: 1.75rem;
 }
 
@@ -38,17 +38,17 @@ h1 a {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: "Quattrocento Sans", sans-serif;
-	color: #333;
+	@include title-sans;
+	color: $blacker;
 }
 
 a {
 	text-decoration: underline;
-	color: #333;
+	color: $blacker;
 }
 
 a:hover {
-	color: black;
+	color: $black;
 	border-bottom: none;
 }
 
@@ -86,7 +86,7 @@ hr {
 .container {
 	margin-left: auto;
 	margin-right: auto;
-	width: 702px;
+	width: $container-width;
 }
 
 /*48em*/
@@ -200,7 +200,7 @@ kbd
 	border: 1px solid #ccc;
 	border-radius: 3px;
 	box-shadow: 0 1px 0 rgba(0,0,0,0.2), 0 0 0 2px #fff inset;
-	color: #333;
+	color: $blacker;
 	display: inline-block;
 	font-family: "Roboto Mono", monospace !important;
 	/*font-size: 14px;*/
