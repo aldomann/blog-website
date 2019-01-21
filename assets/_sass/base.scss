@@ -1,0 +1,263 @@
+/*
+	Contents:
+		Base
+		Site container
+		Thumbnail
+		Post
+		Code
+		Tables
+*/
+
+/*
+	Base
+*/
+
+body {
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 16px;
+	color: #515151;
+	line-height: 1.75rem;
+}
+
+@media (max-width: 30em) {
+	body {
+		font-size: 14px;
+		line-height: 1.5rem;
+	}
+	body h1 {
+		font-size: 1.5rem;
+	}
+}
+
+h1{
+	font-size: 2rem;
+}
+
+h1 a {
+	text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Quattrocento Sans", sans-serif;
+	color: #333;
+}
+
+a {
+	text-decoration: underline;
+	color: #333;
+}
+
+a:hover {
+	color: black;
+	border-bottom: none;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 5px;
+}
+
+blockquote {
+	margin: 10px 20px 10px;
+	padding: 0px 15px;
+	border-left: 0.25em solid #ccc;
+	color: #999;
+	line-height: 1.5;
+}
+
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #ccc;
+	margin: 1em 0;
+	padding: 0;
+	font-size: .875rem;
+}
+
+/*
+	Site container
+*/
+
+.container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 702px;
+}
+
+/*48em*/
+
+@media (max-width: 768px) {
+	.container {
+		width: 90vw;
+	}
+}
+
+/*
+	Thumbnail
+*/
+
+.thumbnail-container {
+	max-width: 100%;
+	overflow: hidden;
+	border-radius: 5px;
+	margin-bottom: 25px;
+}
+
+.thumbnail-container img{
+	margin-top: -11.5%;
+	margin-bottom: -11.5%;
+}
+
+/*
+	Post
+*/
+
+.post-container {
+	margin-bottom: 4rem;
+}
+
+.posts {
+	margin-bottom: 5rem;
+	padding: 0px;
+	list-style: none;
+}
+
+.post-date {
+	display: block;
+	margin-top:3px;
+	margin-bottom: 1rem;
+	color: #9a9a9a;
+	font-family: 'Quattrocento Sans', sans-serif;
+	font-size:0.8rem;
+}
+
+@media (max-width: 30rem) {
+	.posts h1 {
+		font-size: 1.5rem;
+	}
+}
+
+.related {
+	padding-bottom: 2rem;
+}
+
+.related-posts {
+	padding-left: 0px;
+	list-style: none;
+}
+
+.related-posts a {
+	text-decoration: none;
+}
+
+/*
+	Code
+*/
+
+code,
+pre {
+	font-family: "Roboto Mono", monospace;
+	tab-size: 2;
+}
+code {
+	padding: .25em .5em;
+	font-size: .9rem;
+	background-color: #f5f5f5;
+	border-radius: 3px;
+}
+pre {
+	display: block;
+	margin-top: 0;
+	margin-bottom: 1rem;
+	padding: 1rem;
+	font-size: .9rem;
+	line-height: 1.4;
+	white-space: pre;
+	white-space: pre-wrap;
+	word-break: break-all;
+	word-wrap: break-word;
+	background-color: #f5f5f5;
+}
+pre code {
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+	background-color: transparent;
+}
+
+kbd
+{
+	-moz-border-radius: 3px;
+	-moz-box-shadow: 0 1px 0 rgba(0,0,0,0.2), 0 0 0 2px #fff inset;
+	-webkit-border-radius: 3px;
+	-webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.2), 0 0 0 2px #fff inset;
+	background-color: #f7f7f7;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	box-shadow: 0 1px 0 rgba(0,0,0,0.2), 0 0 0 2px #fff inset;
+	color: #333;
+	display: inline-block;
+	font-family: "Roboto Mono", monospace !important;
+	/*font-size: 14px;*/
+	font-size: 0.85rem;
+	line-height: 1.4;
+	margin: 0 .1em;
+	padding: .1em .6em;
+	text-shadow: 0 1px 0 #fff;
+}
+
+/* Pygments via Jekyll */
+.highlight {
+	margin-bottom: 1rem;
+	border-radius: 4px;
+}
+.highlight pre {
+	margin-bottom: 0;
+}
+
+/* Gist via GitHub Pages */
+.gist .gist-file {
+	font-family: "Roboto Mono", monospace !important;
+}
+.gist .markdown-body {
+	padding: 15px;
+}
+.gist pre {
+	padding: 0;
+	background-color: transparent;
+}
+.gist .gist-file .gist-data {
+	font-size: .8rem !important;
+	line-height: 1.4;
+}
+.gist code {
+	padding: 0;
+	color: inherit;
+	background-color: transparent;
+	border-radius: 0;
+}
+
+/*
+	Tables
+*/
+
+table {
+	border-collapse: collapse;
+	margin-bottom: 30px;
+	width: 100%;
+}
+
+table, th, td {
+	border: 1px solid black;
+}
+
+th, td {
+	padding: 15px;
+	text-align: left;
+}
+
