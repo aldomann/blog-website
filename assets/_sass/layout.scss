@@ -95,44 +95,6 @@
 }
 
 /*
-	Menu
-*/
-
-.menu {
-	padding-top: 0.5rem;
-	display: block;
-}
-
-.menu-content {
-	float: left;
-}
-
-.menu-content a {
-	color: $blackish;
-	font-size: 1rem;
-	padding-right: 10px;
-}
-
-.social-icons {
-	float: right;
-}
-
-.social-icons a {
-	color: $blackish;
-	font-size: 1rem;
-}
-
-@media (max-width: 30em) {
-	.social-icons {
-		float: left;
-		padding-top: 0px;
-	}
-	.menu-content {
-		margin-bottom: 5px;
-	}
-}
-
-/*
 	404 Error Page
 */
 

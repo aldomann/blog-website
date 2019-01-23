@@ -6,8 +6,11 @@
 @import "variables";
 
 // Generic site base & layout styles
+@import "fonts";
 @import "base";
 @import "layout";
 
 // Social media icons
+@import "header";
+@import "menu";
 @import "social-media";
