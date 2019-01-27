@@ -62,7 +62,7 @@ Additionally, you can change the default directory of your notebooks when you op
 c.NotebookApp.notebook_dir = '/home/<user>/Code/Python'
 ```
 
-Note that you can't browse files outside of this path from JupyterLab's File Browser, as this will act as your Home. This will also be the opened directory regardless of where you run `jupter lab` from, so think about your workflow before you make this change.
+Note that you can't browse files outside of this path from JupyterLab's File Browser, as this will act as your Home. This will also be the opened directory regardless of where you run `jupyter lab` from, so think about your workflow before you make this change. At the end of the day, this step becomes unnecessary when you create a launcher, so I wouldn't really recommend doing it.
 
 ## Create a launcher
 
