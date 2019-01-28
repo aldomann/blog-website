@@ -62,7 +62,7 @@ bash -c "jumpapp telegramdesktop || telegram-desktop"
 
 This will first try to start the `telegramdesktop` or jump to it. Since there is no such process or binary called like that, it will run `telegram-desktop`. Once `telegramdesktop` is running, everything behaves like expected.
 
-Thankfully, this seems to have been solved in recent versions of Telegram, where both the binary and the process are called `telegram-desktop`, but I still wanted to include this, just in case you ever encounter a similar situation
+I haven't experienced this with any other application so far, but it could happen, so there's that.
 
 ## Opening new windows
 
