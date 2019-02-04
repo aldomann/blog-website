@@ -54,9 +54,10 @@ a:hover {
 }
 
 img {
-	max-width: 100%;
-	// height: auto;
 	display: block;
+	max-width: 100%;
+	// width: auto;
+	// height: auto;
 	margin-left: auto;
 	margin-right: auto;
 	border-radius: 5px;
@@ -271,15 +272,14 @@ kbd
 */
 
 table {
+  display: table;
+  overflow: auto;
+  // width: 100%;
+  margin: auto;
   border-collapse: collapse;
   border-spacing: 0;
-}
-
-
-table {
-  display: block;
-  overflow: auto;
-  width: 100%;
+  margin-bottom: 15px;
+  margin-top: 15px;
 }
 
 table th {
@@ -301,4 +301,3 @@ table tr {
 // table tr:nth-child(2n) {
 //   background-color: #f6f8fa;
 // }
-
