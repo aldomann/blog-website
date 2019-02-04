@@ -20,7 +20,6 @@ The thing is most shortcuts defined like this will open a new window of such app
 
 This is, surprisingly, the exact behaviour of Sublime Text. Even if you run `subl` on the terminal, it will just focus your opened window. I freaking love this and I need this in all my apps.
 
-
 ## Is this even possible?
 
 Here's where [jumpapp](https://github.com/mkropat/jumpapp) by [Michael Kropat](https://github.com/mkropat) comes in handy. I don't think I can describe jumpapp better than Michael, so I won't bother:
