@@ -58,6 +58,14 @@
 	font-family: "Noto Sans", sans-serif;
 }
 
+@mixin mono {
+	font-family: "Fira Code", monospace;
+}
+
+@mixin mono-gist {
+	font-family: "Fira Code", monospace !important;
+}
+
 @mixin sans_light {
 	@include title-sans;
 	font-weight: 300;
